@@ -1,0 +1,36 @@
+.Footer{
+position: relative;
+display: flex;
+bottom: 160px;
+margin-left: 15px;
+padding: 10px;
+}
+.Footer__text{
+    flex: 1;
+}
+.Footer__icon{
+    position: absolute;
+}
+.Footer__ticker{
+    padding-top: 15px;
+}
+.Footer__record{
+    animation: rotationdeg infinite 5s linear;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    filter: invert(1);
+}
+@keyframes rotationdeg{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.Footer__ticker > .ticker{
+    height: fit-content;
+    margin-left: 100px;
+    right: 70px;
+}

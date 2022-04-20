@@ -1,0 +1,33 @@
+
+
+html{
+  scroll-snap-type: y mandatory;
+}
+.App {
+  display: grid;
+  align-items: start;
+  justify-items: center;
+  height: 100vh;
+   color: white;
+  background-color: rgb(18, 20, 15);
+}
+/* hidding the scroll overflow*/
+.App__videos::-webkit-scrollbar{
+  display: none;
+}
+.App__videos{
+  position: relative;
+  overflow: scroll;
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  width: 80%;
+  border-radius: 10px;
+  max-width: 500px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+

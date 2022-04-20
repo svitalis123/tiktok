@@ -1,0 +1,9 @@
+.Mvsidebar{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    text-align: center;
+}
+.Mvsidebar__buttons{
+    padding: 10px;
+}

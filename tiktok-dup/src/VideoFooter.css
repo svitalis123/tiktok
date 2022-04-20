@@ -1,0 +1,36 @@
+.Videofooter{
+    position: relative;
+    display: flex;
+    bottom: 170px;
+    margin-left: 15px;
+    color: rgb(230, 236, 236);
+}
+.Videofooter__text{
+    flex: 1;
+}
+.Videofooter__record{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    filter: invert(1);
+    animation: spinnyRecord infinite 5s linear;
+}
+
+.Videofooter__ticker> .ticker{
+    width: 50%;
+    height: fit-content;
+    margin-left: 30px;
+}
+.Videofooter__icon{
+    position: absolute;
+    padding-top: 13px;
+
+}
+@keyframes spinnyRecord{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

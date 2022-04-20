@@ -1,0 +1,28 @@
+[debug] [2021-01-15T15:20:03.311Z] ----------------------------------------------------------------------
+[debug] [2021-01-15T15:20:03.313Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-01-15T15:20:03.314Z] CLI Version:   9.2.0
+[debug] [2021-01-15T15:20:03.314Z] Platform:      win32
+[debug] [2021-01-15T15:20:03.314Z] Node Version:  v14.15.1
+[debug] [2021-01-15T15:20:03.315Z] Time:          Fri Jan 15 2021 18:20:03 GMT+0300 (East Africa Time)
+[debug] [2021-01-15T15:20:03.315Z] ----------------------------------------------------------------------
+[debug] [2021-01-15T15:20:03.315Z] 
+[debug] [2021-01-15T15:20:03.318Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-01-15T15:20:03.345Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-15T15:20:03.346Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\apps\tiktok\tiktok-apps
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[debug] [2021-01-15T15:20:07.363Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-01-15T15:20:07.364Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
